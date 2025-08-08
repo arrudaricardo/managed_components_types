@@ -30,7 +30,7 @@ type ManagerEventType =
   | 'pageview'
   | 'ecommerce'
   | 'event'
-  | string
+  | (string & {})
 
 type ClientEventType =
   | 'mouseup'
